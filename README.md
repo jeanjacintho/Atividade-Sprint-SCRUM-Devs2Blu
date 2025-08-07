@@ -1,10 +1,17 @@
 # Atividade-Sprint-SCRUM-Devs2Blu
 
-**Nome integrantes:** Jean Carlo Massing Jacintho.  
-**Tecnologias usadas:** `React` com `Vite`, `Electron`, `Mysql`, `Typescript`.  
-**Descrição do projeto:** O Yuno é uma aplicação desktop robusta projetada para gerenciar e reproduzir cursos em vídeo armazenados localmente, oferecendo uma experiência de aprendizagem completa e personalizada com recursos avançados de acompanhamento e gamificação.  
-**Quantidade total de Sprints:** 25   
-**Resumo sobre vantagens:**   
+- **Nome integrantes:** Jean Carlo Massing Jacintho.  
+- **Tecnologias usadas:** `React` com `Vite`, `Electron`, `Mysql`, `Typescript`.  
+- **Descrição do projeto:** O Yuno é uma aplicação desktop robusta projetada para gerenciar e reproduzir cursos em vídeo armazenados localmente, oferecendo uma experiência de aprendizagem completa e personalizada com recursos avançados de acompanhamento e gamificação.  
+- **Quantidade total de Sprints:** 25   
+- **Resumo sobre vantagens:**   
+> Vantagens; 
+as metodologias ágeis ajudam a entregar partes do software em poucas semanas, com foco no que realmente importa. O feedback constante evita retrabalho e funcionalidades desnecessárias. Elas também são ótimas para lidar com mudanças de rumo sem precisar recomeçar tudo do zero. Problemas são identificados mais cedo, quando ainda são fáceis (e baratos) de resolver. Além disso, ver o progresso toda semana mantém a equipe mais motivada.
+
+> Dificuldades:
+as reuniões e o planejamento consomem tempo, o que pode atrapalhar em projetos menores. Fazer boas estimativas é difícil, e tarefas que parecem simples às vezes se tornam complexas. A pressão para entregar rápido pode comprometer a qualidade do código. E como tudo costuma estar interligado, um atraso pode travar várias outras partes. Sem falar na tentação de fazer “gambiarras” para ganhar tempo, que só criam dor de cabeça depois.
+
+- **Sprint para o projeto:** [github.com/yuno](https://github.com/jeanjacintho/yuno)
 
 ## SPRINT 1: Configuração do ambiente e estrutura base  
 - **Descrição:** Configuração inicial do projeto React com Vite, integração com Electron, configuração do banco MySQL e estrutura básica de pastas.  
@@ -18,21 +25,21 @@
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `4 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 12/08/2025 a 18/08/2025  
-- **Observações:**
+- **Observações:** Podem haver multiplas pastas e subpastas, usar tecnicas para melhorar o desempenho.
 
 ## SPRINT 3: Modelagem e Criação do Banco de Dados  
 - **Descrição:** Criação das tabelas do banco (usuários, cursos, aulas, progresso, comentários, avaliações), scripts de migração .
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `3 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 19/08/2025 a 25/08/2025 
-- **Observações:**
+- **Observações:**: Desenvolver uma estrutura que seja possível receber futuras atualizações
 
 ## SPRINT 4: Escaneamento e Catalogação de Cursos 
 - **Descrição:** Sistema para escanear pasta selecionada, identificar cursos e aulas, salvar informações no banco de dados.
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `5 dias desenvolvimento` | `2 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 26/08/2025 a 03/09/2025
-- **Observações:**
+- **Observações:** Podem haver multiplas pastas e subpastas, usar tecnicas para melhorar o desempenho.
 
 ## SPRINT 5: Interface Principal - Lista de Cursos 
 - **Descrição:** Desenvolvimento da tela principal com grade de cursos, exibição de thumbnails, informações básicas dos cursos.
@@ -70,7 +77,7 @@
 - **Observações:**
 
 ## SPRINT 10: Sistema de Avaliação
-- **Descrição:** Interface para adicionar, editar e excluir comentários nas aulas, exibição de comentários por timestamp.
+- **Descrição:** Funcionalidade para avaliar aulas com estrelas, exibição de médias de avaliação, filtros por avaliação
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `4 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 11/10/2025 a 17/10/2025
@@ -116,14 +123,14 @@
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `4 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 24/11/2025 a 30/11/2025
-- **Observações:**
+- **Observações:**: Usar como referencia de gamificação o Duolingo.
 
 ## SPRINT 17: Sistema de Gamificação - Conquistas e Badges
 - **Descrição:** Criação de conquistas/badges, sistema de notificações de conquistas, interface de exibição.
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `5 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 01/12/2025 a 09/12/2025
-- **Observações:**
+- **Observações:** Usar como referencia de gamificação o Duolingo.
 
 ## SPRINT 18: Relatórios de Desempenho
 - **Descrição:** Geração de relatórios detalhados de progresso, tempo de estudo, cursos concluídos, gráficos de desempenho.
@@ -151,10 +158,10 @@
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `5 dias desenvolvimento` | `2 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 06/01/2026 a 15/01/2026
-- **Observações:**
+- **Observações:** Verificar melhor ferramenta custo/beneficio para a hospedagem do banco na nuvem.
 
 ## SPRINT 22: Configurações e Personalização
-- **Descrição:** Painel de configurações da aplicação, temas, preferências de usuário, configurações de vídeo.
+- **Descrição:** Painel de configurações da aplicação, temas, preferências de usuário, shortcuts, configurações de vídeo.
 - **Desenvolvedor:** Jean Carlo Massing Jacintho.  
 - **Cronograma:** `4 dias desenvolvimento` | `1 dia teste` | `1 dia revisão` | `1 dia deploy`.
 - **Período:** 16/01/2026 a 22/01/2026
